@@ -7,7 +7,25 @@ $n4 = readline("Digite a  4 nota: ");
 
 $media = ($n1 + $n2 + $n3 + $n4) / 4;
 
-echo "A média das notas é: $media";
+echo "A média do aluno(a) é: $media\n";
+
+$frequencia = readline("Digite a frequência (0 a 100): ");
+
+if ($frequencia < 75) {
+    echo "Reprovado por falta";
+} elseif ($media >= 6) {
+    echo "Aprovado";
+} else {
+    $rec = readline("Digite a nota da recuperação: ");
+    $mediaFinal = $media + $rec;
+
+    if ($mediaFinal > 5) {
+        echo "Aprovado na recuperação!";
+    } else {
+        echo "Reprovado!";
+    }
+}
+
 
 
 ?>
