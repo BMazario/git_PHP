@@ -20,7 +20,7 @@ if ($frequencia < 75) {
     $mediaFinal = $media + $rec;
 
     if ($mediaFinal > 5) {
-        echo "Aprovado na recuperação!";
+        echo "Aprogyvado na recuperação!";
     } else {
         echo "Reprovado!";
     }
