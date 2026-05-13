@@ -12,7 +12,7 @@ echo "A média do aluno(a) é: $media\n";
 $frequencia = readline("Digite a frequência (0 a 100): ");
 
 if ($frequencia < 75) {
-    echo "Reprovado por falta";
+    echo "Reprovado por falta!";
 } elseif ($media >= 6) {
     echo "Aprovado";
 } else {
